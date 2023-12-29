@@ -43,21 +43,21 @@ Key_11 = pygame.Rect(335, 50, 50, 75)
 Key_12 = pygame.Rect(405, 50, 50, 75)
 
 #Font Variables
-game_font = pygame.font.Font("Roboto-Black.ttf", 32)
+game_font = pygame.font.Font("./font/Roboto-Black.ttf", 32)
 
 #sounds variables
-c = pygame.mixer.Sound("C.wav")
-c_sharp = pygame.mixer.Sound("C_s.wav")
-d = pygame.mixer.Sound("D.wav")
-d_sharp = pygame.mixer.Sound("D_s.wav")
-e = pygame.mixer.Sound("E.wav")
-f = pygame.mixer.Sound("F.wav")
-f_sharp = pygame.mixer.Sound("F_s.wav")
-g = pygame.mixer.Sound("G.wav")
-g_sharp = pygame.mixer.Sound("G_s.wav")
-a = pygame.mixer.Sound("A.wav")
-a_sharp = pygame.mixer.Sound("Bb.wav")
-b = pygame.mixer.Sound("B.wav")
+c = pygame.mixer.Sound("./sound/C.wav")
+c_sharp = pygame.mixer.Sound("./sound/C_s.wav")
+d = pygame.mixer.Sound("./sound/D.wav")
+d_sharp = pygame.mixer.Sound("./sound/D_s.wav")
+e = pygame.mixer.Sound("./sound/E.wav")
+f = pygame.mixer.Sound("./sound/F.wav")
+f_sharp = pygame.mixer.Sound("./sound/F_s.wav")
+g = pygame.mixer.Sound("./sound/G.wav")
+g_sharp = pygame.mixer.Sound("./sound/G_s.wav")
+a = pygame.mixer.Sound("./sound/A.wav")
+a_sharp = pygame.mixer.Sound("./sound/Bb.wav")
+b = pygame.mixer.Sound("./sound/B.wav")
 
 #Game Loop
 while True:
